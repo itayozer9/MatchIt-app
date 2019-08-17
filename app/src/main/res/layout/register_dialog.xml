@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="50dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="@drawable/cornered_dialog_background">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/reg_et_nickname"
+        android:hint="@string/Nickname"
+        android:gravity="center"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/reg_et_email"
+        android:hint="@string/Email"
+        android:inputType="textEmailAddress"
+        android:gravity="center"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/reg_et_password"
+        android:hint="@string/Password"
+        android:gravity="center"
+        android:inputType="textPassword|text"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reg_btn_upload"
+        android:text="@string/UploadPicture"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/reg_iv_profilePic"
+        android:scaleType="centerCrop"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reg_btn_register"
+        android:text="@string/Register"/>
+
+
+</LinearLayout>

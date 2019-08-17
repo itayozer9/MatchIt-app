@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Matchit</string>
+    <string name="facebook_app_id">331655280904533</string>
+    <string name="fb_login_protocol_scheme">fb331655280904533</string>
+    <string name="Authentication_failed">ההתחברות נכשלה</string>
+    <string name="CancelLoginfacebook">ביטול התחברות עם פייסבוק</string>
+    <string name="ErrorLoginFacebook">שגיאה בהתחברות עם פייסבוק</string>
+    <string name="ValidName">הכנס שם תקין</string>
+    <string name="ValidPass">הכנס סיסמה תקינה</string>
+    <string name="ValidEmail">הכנס מייל תקין</string>
+    <string name="ValidPic">העלה תמונה</string>
+    <string name="RegisterFailed">ההרשמה נכשלה</string>
+    <string name="Email">כתובת מייל</string>
+    <string name="IncorrectUsernamePass">מייל או סיסמה שגויים</string>
+    <string name="Uploading">מעלה...</string>
+    <string name="ImageUploaded">תמונה הועלתה</string>
+    <string name="Uploaded">"הועלה "</string>
+    <string name="Password">סיסמה</string>
+    <string name="Login">התחבר</string>
+    <string name="Register">הרשם</string>
+    <string name="Welcome">"ברוך הבא "</string>
+    <string name="SinglePlayer">משתתף אחד</string>
+    <string name="MultiPlayer">שני משתתפים</string>
+    <string name="Nickname">כינוי</string>
+    <string name="UploadPicture">בחר תמונה</string>
+    <string name="Easy">קל</string>
+    <string name="Medium">בינוני</string>
+    <string name="Hard">קשה</string>
+    <string name="AreYouSureOut">האם אתה בטוח שברצונך להתנתק?</string>
+    <string name="SignOut">התנתקות</string>
+    <string name="Yes">כן</string>
+    <string name="StartGame">התחל משחק</string>
+    <string name="Cancel">ביטול</string>
+    <string name="Country">מדינות</string>
+    <string name="Math">מתמטיקה</string>
+    <string name="Time">זמנים</string>
+    <string name="youWon">אתה ניצחת</string>
+</resources>

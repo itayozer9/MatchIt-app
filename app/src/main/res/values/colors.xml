@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196f3</color>
+    <color name="colorSecondary">#1976D2</color>
+    <color name="colorMin">#EF5350</color>
+
+
+    <color name="colorTime">#3e3200</color>
+    <color name="colorFlags">#092900</color>
+    <color name="colorMath">#2e0043</color>
+
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorBackground">#EDE7F6</color>
+    <color name="buttonColor">#673AB7</color>
+
+    <color name="buttonTextColor">#1a1a1b</color>
+
+    <color name="White">#f9f9f9</color>
+    <color name="DarkWhite">#d7d7d7</color>
+    <color name="Gray">#494949</color>
+    <color name="Black">#000000</color>
+</resources>

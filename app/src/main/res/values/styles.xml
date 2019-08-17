@@ -1,0 +1,48 @@
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base application theme. -->
+    <!--<style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">-->
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="android:actionBarStyle" tools:ignore="NewApi">@style/ActionBar.AppTheme</item>
+        <item name="actionBarStyle">@style/ActionBar.AppTheme</item>
+        <item name="android:buttonStyle">@style/ButtonTheme</item>
+        <item name="buttonStyle">@style/ButtonTheme</item>
+        <!--<item name="colorButtonNormal">@color/buttonColor</item>-->
+        <item name="android:textColor">@color/buttonTextColor</item>
+        <!--<item name="android:background">@color/colorBackground</item>-->
+        <item name="android:windowBackground">@drawable/background_main</item>
+        <item name="icon">@drawable/matchit_logo_ozer</item>
+
+    </style>
+    <style name="ActionBar.AppTheme"
+        parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="background">@color/colorPrimary</item>
+        <item name="android:background" tools:ignore="NewApi">@color/colorPrimary</item>
+        <!--<item name="android:textColor">@color/White</item>-->
+    </style>
+
+    <style name="MatchitTheme" parent="android:Theme">
+        <item name="android:buttonStyle">@style/ButtonTheme</item>
+        <item name="android:background">@color/colorBackground</item>
+    </style>
+
+    <style name="ButtonTheme" parent="Widget.AppCompat.Button">
+        <!--<item name="android:textColor">@color/White</item>-->
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/button</item>
+    </style>
+    <style name="RegisterDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">@drawable/background_main</item>
+    </style>
+
+
+    <!-- Style to replace actionbar overflow icon. set item 'android:actionOverflowButtonStyle' in AppTheme -->
+    <!--<style name="MyActionButtonOverflow" parent="android:Theme.A">-->
+        <!--<item name="android:src">@drawable/matchit_icon</item>-->
+        <!--<item name="android:background">?android:attr/actionBarItemBackground</item>-->
+        <!--<item name="android:contentDescription">"Matchit"</item>-->
+    <!--</style>-->
+
+</resources>

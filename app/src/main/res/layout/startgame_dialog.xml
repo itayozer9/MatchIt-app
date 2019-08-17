@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:id="@+id/startgame_dialog">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_easy"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/Easy"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_medium"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:text="@string/Medium"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_hard"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:text="@string/Hard"/>
+    <NumberPicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/np_theme"
+        android:layout_gravity="center"/>
+
+
+
+
+</LinearLayout>
